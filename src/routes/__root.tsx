@@ -50,6 +50,12 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "MindBloom — A gentle space to breathe & talk" },
+      { name: "description", content: "MindBloom Companion offers empathetic, non-judgmental mental health support." },
+      { property: "og:description", content: "MindBloom Companion offers empathetic, non-judgmental mental health support." },
+      { name: "twitter:description", content: "MindBloom Companion offers empathetic, non-judgmental mental health support." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f324318f-215e-4d4a-b8c7-7b9cc4bae37d/id-preview-d92bfebe--02da1453-66b4-4978-9c85-9f9f5b9aa632.lovable.app-1776757973677.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f324318f-215e-4d4a-b8c7-7b9cc4bae37d/id-preview-d92bfebe--02da1453-66b4-4978-9c85-9f9f5b9aa632.lovable.app-1776757973677.png" },
     ],
     links: [
       {
