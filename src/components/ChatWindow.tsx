@@ -327,9 +327,21 @@ export function ChatWindow() {
               )}
             </button>
           </div>
-          <p className="mt-2 text-center text-[10px] text-muted-foreground">
-            MindBloom isn't a substitute for professional care. If you're in crisis, please reach out to a trusted person or local helpline.
-          </p>
+          <div className="mt-2 space-y-1 text-center text-[10px] text-muted-foreground">
+            <p>
+              MindBloom isn't a substitute for professional care. If you're in crisis, please reach out.
+            </p>
+            <p className="text-foreground/70">
+              🇮🇳 India helplines —{" "}
+              <a href="tel:9152987821" className="underline hover:text-primary">iCall 9152987821</a>
+              {" · "}
+              <a href="tel:18602662345" className="underline hover:text-primary">Vandrevala 1860-2662-345</a>
+              {" · "}
+              <a href="tel:9820466726" className="underline hover:text-primary">AASRA 9820466726</a>
+              {" · "}
+              <a href="tel:18005990019" className="underline hover:text-primary">KIRAN 1800-599-0019</a>
+            </p>
+          </div>
         </div>
       </div>
 
