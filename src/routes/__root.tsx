@@ -1,5 +1,11 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
+import "@fontsource/instrument-serif/400.css";
+import "@fontsource/work-sans/300.css";
+import "@fontsource/work-sans/400.css";
+import "@fontsource/work-sans/500.css";
+import "@fontsource/work-sans/600.css";
+
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
@@ -29,11 +35,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "MindBloom — A gentle space to breathe & talk" },
+      {
+        name: "description",
+        content:
+          "MindBloom is your calm AI companion for mental wellbeing — a soft, judgment-free space to share how you feel.",
+      },
+      { name: "author", content: "MindBloom" },
+      { property: "og:title", content: "MindBloom — A gentle space to breathe & talk" },
+      {
+        property: "og:description",
+        content: "Soft, kind conversations whenever you need a moment of calm.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
