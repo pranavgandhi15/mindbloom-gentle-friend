@@ -1,1 +1,4 @@
 project_id = "kjzgpnldygnghgnhunkp"
+
+[functions.mindbloom-chat]
+verify_jwt = false
